@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    gap: 1rem;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    backdrop-filter: blur(2px);
+
+
+}
+
+@supports not(backdrop-filter: blur(5px)){
+    .header{background: var(--gris30);
+    }
+}

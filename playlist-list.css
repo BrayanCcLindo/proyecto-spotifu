@@ -1,0 +1,28 @@
+
+.playlist-container{
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem   ;
+}
+
+.playlist-top{
+    padding-block: .5rem;
+    margin-block-end: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.playlist-list-title{
+    font: var(--headline2);
+    color: var(--white);
+    margin: 0;
+
+}
+
+
+.playlist-container >* {
+    flex-shrink: 0;
+}

@@ -1,0 +1,30 @@
+.now-playing{
+    display: flex;
+    gap: .5rem ;
+
+
+}
+.now-playing-details{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.now-playing-title{
+    text-decoration: none;
+    color: #fff;
+    font: var(--basefontbold);
+    display: block;
+}
+.now-playing-artist{
+    text-decoration: none;
+    color: var(--gris10);
+    font: var(--small);
+}
+
+.now-playing-cover{
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+    vertical-align: middle;
+    cursor: pointer;
+}

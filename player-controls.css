@@ -1,0 +1,43 @@
+.player-controls{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.player-controls-buttons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.player-playback{
+    display: flex;
+    gap: .5rem ;
+    align-items: center;
+}
+.player-playback-slider{
+    flex: 1;
+}
+
+.player-playback-progress{
+    line-height: 1 ;
+    position: relative;
+    top: 1px;
+    font: small;
+}
+
+
+
+
+
+.player-volume{
+    display: flex;
+
+    align-items: center;
+
+
+}
+.playerVolume-slide{
+    flex: 1;
+    inline-size: 6rem;
+}
+

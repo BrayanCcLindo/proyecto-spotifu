@@ -1,0 +1,16 @@
+::-webkit-scrollbar{
+    background: transparent;
+    block-size: .5rem;
+    inline-size: .5rem;
+}
+::-webkit-scrollbar-button{
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--gris30);
+
+}
+::-webkit-scrollbar-track{
+    background: black;
+}
