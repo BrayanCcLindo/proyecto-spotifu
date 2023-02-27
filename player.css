@@ -1,6 +1,6 @@
-@import '/slider.css';
-@import '/player-controls.css';
-@import '/now-playing.css';
+@import 'slider.css';
+@import 'player-controls.css';
+@import 'now-playing.css';
 
 
 .player{
